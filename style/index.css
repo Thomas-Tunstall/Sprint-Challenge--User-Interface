@@ -105,15 +105,17 @@ height: 100%;
 
 font-family: 'Roboto', sans-serif;
 
+font-size: 62.5%;
+
 }
 
 
 
 h1, h2, h3, h4, h5 {
 
-font-size: 18px;
+font-size: 1.8rem;
 
-margin-bottom: 15px;
+margin-bottom: 1.5rem;
 
 font-family: 'Rubik', sans-serif;
 
@@ -149,8 +151,29 @@ padding-top: 50px;
 
 padding-bottom: 20px;
 
+font-size: 1.5rem;
+
 }
 
+@media (max-width: 500px) {
+    nav {
+    flex-direction: column;
+    align-items: center;
+    }
+    .container {
+        width: 100%;
+    }
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .text {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+    
 
 
 .header-content a {
@@ -395,7 +418,7 @@ align-items: center;
 
 padding: 20px 2%;
 
-font-size: 14px;
+font-size: 2rem;
 
 }
 
